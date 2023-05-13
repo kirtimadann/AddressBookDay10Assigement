@@ -6,4 +6,4 @@ show tables;
 describe AddressBook;
 insert into AddressBook(FirstName,LastName,Address,city,state,Zipcode,PhoneNumber,Email)values('kirti','madan','jalna','beed','MH','431203','96678987889','kirti@gmail.com'),('Aastha','rai','bihar','patna','up','431234','6789878895','Aastha@gmail.com');
 select * from AddressBook;
-update AddressBook set FirstName = 'kirtusha' where id = 1;
+DELETE FROM AddressBook WHERE FirstName='Aastha' and id = 2;
